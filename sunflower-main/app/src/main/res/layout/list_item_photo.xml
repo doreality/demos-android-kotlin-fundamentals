@@ -51,7 +51,8 @@
                     app:imageFromUrl="@{photo.urls.small}"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent" />
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="ImageContrastCheck" />
 
                 <TextView
                     android:id="@+id/photographer"
